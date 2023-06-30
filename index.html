@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="wdata-region=""th=device-width,
+    initial-scale=1.0" />
+    <title>Jogo da velha</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+   <main class="container">
+    <h1>Jogo da velha</h1>
+    <label for="player1">X</label>
+    <input type="text" id="player1" placeholder="Nome do jogador 1">
+    <label for="player1">O</label>
+    <input type="text" id="player2" placeholder="Nome do jogador 2">
+    <button id="start">Continuar!</button>
+    <h2>Vez de: <span id="turnPlayer"></span></h2>
+ 
+    <section id="gameBoard">
+      <span class="jogo" data-region="0.0"></span>
+      <span class="jogo" data-region="0.1"></span>
+      <span class="jogo" data-region="0.2"></span>
+      <span class="jogo" data-region="1.0"></span>
+      <span class="jogo" data-region="1.1"></span>
+      <span class="jogo" data-region="1.2"></span>
+      <span class="jogo" data-region="2.0"></span>
+      <span class="jogo" data-region="2.1"></span>
+      <span class="jogo" data-region="2.2"></span>
+    </section>
+   </main>
+  </body>
+</html>
